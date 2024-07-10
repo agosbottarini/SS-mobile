@@ -24,48 +24,50 @@ const Card = ({ imagenSource, tamano, stock, onPressEditar }) => {
 
 const styles = StyleSheet.create({
   card: {
-    width: '100%',
+    width: "90%",
     flexDirection: 'row',
     alignItems: 'center',
     borderRadius: 8,
     backgroundColor: '#fff',
     marginBottom: 10,
-    padding: 10,
+    padding: 40,
+    paddingLeft: 13,
     shadowColor: '#000',
     shadowOpacity: 0.2,
-    shadowOffset: { width: 0, height: 2 },
+    shadowOffset: { width: "5%", height: "5%" },
     elevation: 2,
   },
   imagen: {
     width: 100,
     height: 100,
-    resizeMode: 'cover',
+    resizeMode: 'contain',
     borderRadius: 8,
   },
   textoContainer: {
     flex: 1,
-    marginLeft: 10,
+    marginLeft: 25,
+    marginEnd: 30,
   },
   titulo: {
     fontSize: 18,
     fontWeight: 'bold',
   },
   subtitulo: {
-    fontSize: 14,
+    fontSize: 15,
     color: '#777',
-    marginTop: 5,
+    marginTop: 6,
   },
   editarContainer: {
     position: 'absolute',
     bottom: 10,
     right: 10,
     backgroundColor: '#3498db',
-    padding: 5,
+    padding: 6,
     borderRadius: 20,
   },
   editarIcon: {
     color: '#fff',
-    fontSize: 18,
+    fontSize: 20,
   },
 });
 

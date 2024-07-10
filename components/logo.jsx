@@ -6,7 +6,7 @@ import logoImage from './../assets/image/LOGO.png';
 const Logo = () =>{
     return(
        <View>
-            <Image source={logoImage} style={StyleSheet.logo}/>
+            <Image source={logoImage} style={styles.logo}/>
         </View>
     )
 };
@@ -18,8 +18,8 @@ const styles = StyleSheet.create(
             justifyContent: "center",
         },
         logo:{
-            width: "5%",
-            height: "5%",
+            width: 190,
+            height: 190,
             resizeMode: "contain"
         }
     });
