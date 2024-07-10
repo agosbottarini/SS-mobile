@@ -10,3 +10,18 @@ const Logo = () =>{
         </View>
     )
 };
+
+const styles = StyleSheet.create(
+    {
+        container:{
+            alignItems: "center",
+            justifyContent: "center",
+        },
+        logo:{
+            width: 150,
+            height: 150,
+            resizeMode: "contain"
+        }
+    });
+
+    export default Logo;
